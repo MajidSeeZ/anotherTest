@@ -421,7 +421,7 @@ public class Main {
         Books[p].setBooksName(Filler.nextLine());
 
         while(true){
-            System.out.print("\nTopic\n[1]Historical\n[2]Romance\n[3]Scientific\n[4]SchoolBook\n>>");
+            System.out.print("\n[TOPIC]\n[1]. HISTORICAL\n[2]. ROMANCE\n[3]. SCIENTIFIC\n[4]. SCHOOLBOOK\n>>");
             String C = Filler.nextLine();
             switch(C){
                 case "1":
