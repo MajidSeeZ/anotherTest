@@ -66,7 +66,7 @@ public class Book {
         AuthorsLastName = authorsLastName;
     }
 
-    private String volume;
+    private String Volume;
     public String getVolume() {
         return volume;
     }
